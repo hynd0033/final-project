@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/dfa44902dc.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -12,31 +23,32 @@
     <header>
         <nav>
 
-            <div class="container"> 
-                
-                <img src="images/logo.png" alt="Three Star Media Logo">
-                
+            <!-- NAVIGATION SECTION -->
+            <div class="container grid-container"> 
+                <div class="logo">
+                    <img src="images/logo.png" alt="Three Star Media Logo">
+                </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li class="current"><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 
-                <form>
-                    <input type="search" value="Search">
-                    <button>Magnifying glass</button>
-                </form>
+                <div class="nav-search">
+                    <form>
+                        <input type="search" value="Search">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
 
             </div> <!--END container-->
         
         </nav>
-        <!--NAV HTML IS DONE-->
-
+        
+        <!-- HEADER SECTION -->
         <div class="header-welcome">
-            <img src="images/main-banner.jpg" alt="office space">
-
             <div class="container"> 
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
@@ -51,10 +63,9 @@
         </div>
     
     </header>
-    <!--HEADER HTML IS DONE-->
 
     <main>
-
+        <!-- ABOUT US SECTION -->
         <section class="section-about">
             <div class="container">
                 <img src="images/about-us.jpg" alt="office recreational space">
@@ -64,75 +75,93 @@
                 placeat, maxime soluta nesciunt pariatur aliquam consequuntur
                 sequi saepe sint praesentium laboriosam perferendis eius amet
                 ad?</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt
+                reiciendis soluta quo commodi guidem, non perferendis vel sed
+                facilis rerum cum in exercitationem?</p>
                 <!--Image on the left, H2 and couple of paragraphs on the right using FLEXBOX-->
 
             </div> <!--END container-->
 
         </section> <!--END section-about-->
-        <!--ABOUT US HTML IS DONE-->
+   
 
+        <!-- SERVICES SECTION -->
         <section class="section-services">
             <div class="container">
                 <h2>Our Services</h2>
 
-                <div class="block">
-                    <img src="images/digital.jpg" alt="person on computer">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Eius vel, rem inventore quo tempora animi mollitia eaque
-                    error qui consectetur in reprehenderit magnam at vitae
-                    corporis quaerat deleniti explicabo nisi?</p>
-                    <button type="button">Digital Plans ▶</button>
-                </div>
+                <div class="grid-container">
+                    <!--h2 heading, five div's with h3, image, text and button on a grid-->
+                    <div class="grid-bit">
+                        <img src="images/digital.jpg" alt="person on computer">
+                        <div class="grid-bit-text">
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Eius vel, rem inventore quo tempora animi mollitia eaque
+                            error qui consectetur in reprehenderit magnam at vitae
+                            corporis quaerat deleniti explicabo nisi?</p>
+                            <button type="button">Digital Plans ▶</button>
+                        </div> <!--GRID TEXT END-->
+                    </div> <!-- GRID BIT END-->
 
-                <div class="block">
-                    <img src="images/marketing.jpg" alt="work computer">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Eius vel, rem inventore quo tempora animi mollitia eaque
-                    error qui consectetur in reprehenderit magnam at vitae
-                    corporis quaerat deleniti explicabo nisi?</p>
-                    <button type="button">Marketing Plans ▶</button>
-                </div>
+                    <div class="grid-bit">
+                        <img src="images/marketing.jpg" alt="work computer">
+                        <div class="grid-bit-text">
+                            <h3>Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Eius vel, rem inventore quo tempora animi mollitia eaque
+                            error qui consectetur in reprehenderit magnam at vitae
+                            corporis quaerat deleniti explicabo nisi?</p>
+                            <button type="button">Marketing Plans ▶</button>
+                        </div> <!--GRID TEXT END-->
+                    </div> <!-- GRID BIT END-->
 
-                <div class="block">
-                    <img src="images/video.jpg" alt="hand using phone">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Eius vel, rem inventore quo tempora animi mollitia eaque
-                    error qui consectetur in reprehenderit magnam at vitae
-                    corporis quaerat deleniti explicabo nisi?</p>
-                    <button type="button">Video Plans ▶</button>
-                </div>
+                    <div class="grid-bit">
+                        <img src="images/video.jpg" alt="hand using phone">
+                        <div class="grid-bit-text">
+                            <h3>Video Production</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Eius vel, rem inventore quo tempora animi mollitia eaque
+                            error qui consectetur in reprehenderit magnam at vitae
+                            corporis quaerat deleniti explicabo nisi?</p>
+                            <button type="button">Video Plans ▶</button>
+                        </div> <!--GRID TEXT END-->
+                    </div> <!-- GRID BIT END-->
 
-                <div class="block">
-                    <img src="images/web.jpg" alt="phone on notebook">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Eius vel, rem inventore quo tempora animi mollitia eaque
-                    error qui consectetur in reprehenderit magnam at vitae
-                    corporis quaerat deleniti explicabo nisi?</p>
-                    <button type="button">Web Plans ▶</button>
-                </div>
+                    <div class="grid-bit">
+                        <img src="images/web.jpg" alt="phone on notebook">
+                        <div class="grid-bit-text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Eius vel, rem inventore quo tempora animi mollitia eaque
+                            error qui consectetur in reprehenderit magnam at vitae
+                            corporis quaerat deleniti explicabo nisi?</p>
+                            <button type="button">Web Plans ▶</button>
+                        </div> <!--GRID TEXT END-->
+                    </div> <!-- GRID BIT END-->
 
-                <div class="block">
-                    <img src="images/print.jpg" alt="newspaper vending machines">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Eius vel, rem inventore quo tempora animi mollitia eaque
-                    error qui consectetur in reprehenderit magnam at vitae
-                    corporis quaerat deleniti explicabo nisi?</p>
-                    <button type="button">Print Plans ▶</button>
-                </div>
+                    <div class="grid-bit">
+                        <img src="images/print.jpg" alt="newspaper vending machines">
+                        <div class="grid-bit-text">
+                            <h3>Print</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Eius vel, rem inventore quo tempora animi mollitia eaque
+                            error qui consectetur in reprehenderit magnam at vitae
+                            corporis quaerat deleniti explicabo nisi?</p>
+                            <button type="button">Print Plans ▶</button>
+                        </div> <!--GRID TEXT END-->
+                    </div> <!-- GRID BIT END-->
 
                 <!--h2 heading, five div's with h3, image, text and button on a grid-->
 
             </div> <!--END container-->
 
         </section> <!--END section-services-->
-                <!--HTML SERVICES IS DONE-->
+              
       
-
+        <!-- VISION SECTION -->
         <section class="section-vision">
             <div class="container">
                 <h3>Our Vision</h3>
@@ -147,8 +176,9 @@
             </div> <!--END container-->
 
         </section> <!--END section-vision-->
-                <!--HTML VISION IS DONE-->
 
+        <!-- TEAM SECTION -->
+        <!-- Can use flexbox or grid-->
         <section class="section-team">
             <div class="container">
                 <h2>Our Team</h2>
@@ -184,20 +214,20 @@
             </div> <!--END container-->
 
         </section> <!--END section-team-->
-            <!--HTML TEAM IS DONE-->
-
+    
+        <!-- CONTACT SECTION -->
         <section class="section-contact">
             <div class="container">
 
-            <div class="block">
+            <div class="contact-header2">
                 <h2>Contact Us</h2>
             </div>
 
-            <div class="block">
+            <div class="contact-header3">
                 <h3>Send us a message</h3>
             </div>
 
-            <div class="block">
+            <div class="contact-form">
                 <form>
                     <label for="fullname">Full Name</label>
             <br>
@@ -216,7 +246,7 @@
                 </form>
             </div>
 
-            <div class="block">
+            <div class="contact-map">
                 <h2>Location</h2>
                 <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435619.7056164963!2d-77.9961477375!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669578896089!5m2!1sen!2sca"
@@ -225,7 +255,7 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <div class="block">
+            <div class="contact-table">
                 <h2>Hours of operation</h2>
                 <table>
                     <tr>
@@ -248,10 +278,9 @@
             </div> <!--END container-->
 
         </section> <!--END section-contact-->
-        <!--HTML CONTACT IS DONE-->
-        
     </main>
 
+    <!-- FOOTER SECTION -->
     <footer>
         <div class="container">
             <p>© Copyright Three Star Media, 2020</p>
