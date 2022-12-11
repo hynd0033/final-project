@@ -72,6 +72,12 @@ h2 {
 	font-weight:bold;
 }
 
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
 p {
 	margin-bottom: 1em;
 }
@@ -111,9 +117,31 @@ nav li.current a:link, nav li.current a:visited {
 	padding-bottom: 20px;
 }
 
+.nav-search form {
+	padding: 0;
+	margin: 0;
+	display:flex;
+}
+
 .nav-search input {
-	height: 42px;
-	width: 637px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	line-height: 2;
+	flex-grow:1;
+
+}
+
+.magnify {
+	color:#c78b07;
+	background-color: #222222;
+	border-color: #c78b07;
+	border: 1px solid;
+	height:40px;
+	width:40px;
+	margin: 0;
+	padding: 0;
 }
 
 /* WELCOME SECTION */
@@ -128,7 +156,15 @@ nav li.current a:link, nav li.current a:visited {
 .header-welcome .container {
 	background-color: rgba(0, 0, 0 , 0.5);
 	color:white;
-	padding-top:50px;
+	padding:50px 16px 16px 16px;
+}
+
+.connect {
+	font-size:21px;
+	height: 90px;
+	width:243px;
+	background-color: #c78b07;
+	border:none;
 }
 
 /* ABOUT SECTION */
@@ -137,29 +173,61 @@ nav li.current a:link, nav li.current a:visited {
 	background-color: #ffe6ac;
 }
 
-/* .header-welcome button {
-	
-} */
 
 
-/*nav form 
-display flex 
-flex grow 1*/
+/* OUR SERVICES SECTION */
+
+/* FIX PADDINGS AND MARGINS */ 
+
+.section-services h3 {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.grid-bit {
+	background-color: #ffe6ac;
+	margin-bottom: 16px;
+}
+
+.grid-bit-text {
+	padding: 16px;
+}
+
+.section-services img {
+	width:100%;
+}
+
+.service-button {
+	color: #ffff;
+	background-color: #222222;
+	padding: 16px 16px;
+	margin: 16px 16px;
+}
+
+/* OUR VISION SECTION */
+
+.section-vision {
+	background-image: url(../images/vision.jpg);
+	background-size: cover;
+	color:white;
+}
+
+/* YOU"RE AT THE VISION BUTTON AND TEXT */
 
 /* END OF YOUR MOBILE-FIRST CSS. 
 NO MEDIA QUERIES ABOVE THIS LINE */
 
-/* TABLET STYLES: 760px to 1199px */
+/* TABLET STYLES: 760px to 1199px *
 @media screen and (min-width: 760px) {
 
     .container {
         width: 706px;
         margin: 0 auto;
     }
-    /* NOTHING ELSE! */ 
+    /* NOTHING ELSE! *
 }
 
-/* DESKTOP STYLES: ABOVE 1200px */
+/* DESKTOP STYLES: ABOVE 1200px *
 @media screen and (min-width: 1200px) {
 
     .container {
@@ -168,6 +236,7 @@ NO MEDIA QUERIES ABOVE THIS LINE */
         margin: 0 auto;
     }
 
-    /* ALL YOUR DESKTOP STYLES HERE */
+    /* ALL YOUR DESKTOP STYLES HERE *
 
 }
+*/
