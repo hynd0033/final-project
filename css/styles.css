@@ -80,6 +80,7 @@ h3 {
 
 p {
 	margin-bottom: 1em;
+	font-size: 14px;
 }
 
 img {
@@ -206,28 +207,105 @@ nav li.current a:link, nav li.current a:visited {
 
 /* OUR VISION SECTION */
 
-.section-vision {
+.vision-background {
+	padding: 16px 16px 16px 16px;
 	background-image: url(../images/vision.jpg);
 	background-size: cover;
 	color:white;
+	background-position: center center;
 }
 
-/* YOU"RE AT THE VISION BUTTON AND TEXT */
+.section-vision {
+	color:palevioletred;
+}
 
+.vision {
+	color:white;
+	background-color: #06223b;
+	border:1px solid #c78b07;
+	padding: 16px 16px;
+	margin: 16px 16px;
+}
+
+/* OUR TEAM */
+
+.employees img {
+	width: 100%;
+}
+
+.employees {
+	background-color: #ffe6ac;
+}
+
+.employees-text {
+	padding: 16px 16px;
+	margin: 16px 16px;
+}
+
+.employees h3 {
+	margin-bottom: 1px;
+}
+
+h4 {
+	font-weight: bold;
+	border-bottom: 2px solid #c78b07;
+	margin-bottom: 32px;
+}
+
+/* CONTACT US SECTION */
+
+.contact-form form input, textarea {
+	width: 100%;
+}
+
+.contact-button {
+	color:#c78b07;
+	background-color:#222222;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 150%;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+th, td {
+	padding: 16px 0px 16px 16px;
+}
+
+th {
+	background-color: #ffe6ac;
+	text-align: center;
+}
+
+.contact-map iframe {
+	width: 100%;
+}
+
+footer {
+	color:#c78b07;
+	background-color:#222222;
+	padding-top: 16px;
+}
 /* END OF YOUR MOBILE-FIRST CSS. 
 NO MEDIA QUERIES ABOVE THIS LINE */
 
-/* TABLET STYLES: 760px to 1199px *
+/* TABLET STYLES: 760px to 1199px */
 @media screen and (min-width: 760px) {
 
     .container {
         width: 706px;
         margin: 0 auto;
     }
-    /* NOTHING ELSE! *
+    /* NOTHING ELSE! */
 }
 
-/* DESKTOP STYLES: ABOVE 1200px *
+/* DESKTOP STYLES: ABOVE 1200px */
 @media screen and (min-width: 1200px) {
 
     .container {
@@ -236,7 +314,6 @@ NO MEDIA QUERIES ABOVE THIS LINE */
         margin: 0 auto;
     }
 
-    /* ALL YOUR DESKTOP STYLES HERE *
+    /* ALL YOUR DESKTOP STYLES HERE */
 
 }
-*/

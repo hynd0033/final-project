@@ -164,13 +164,14 @@
         <!-- VISION SECTION -->
         <section class="section-vision">
             <div class="container">
-                <h3>Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex
-                voluptatem deleniti lure, sit, accusantium rerum est commodi
-                veniam tempora perspiciatis nobis officiis fagiat eaque.
-                Veritatis exercitationem delectus ex ab laudantium.</p>
-                <button class="vision" type="button">Learn More ▶</button>
-                <!--h3, p tag, button will need class name-->
+                <div class="vision-background">
+                    <h3>Our Vision</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex
+                    voluptatem deleniti lure, sit, accusantium rerum est commodi
+                    veniam tempora perspiciatis nobis officiis fagiat eaque.
+                    Veritatis exercitationem delectus ex ab laudantium.</p>
+                    <button class="vision" type="button">Learn More ▶</button>
+                </div>
 
             </div> <!--END container-->
 
@@ -181,32 +182,32 @@
         <section class="section-team">
             <div class="container">
                 <h2>Our Team</h2>
-                <div>
+                <div class="employees">
                     <img src="images/john.jpg" alt="John Doe">
+
+                    <div class="employees-text">
+                        <h3>John Doe</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Amet, aspernatur ratione sed cum ad officiis sint comque
+                        fugiat similique. Earum laudantium deleniti possimus?
+                        Voluptatem architecto repellendus harum sit voluptatum
+                        tempora.</p> 
+                    </div>
                 </div>
 
-                <div>
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Amet, aspernatur ratione sed cum ad officiis sint comque
-                    fugiat similique. Earum laudantium deleniti possimus?
-                    Voluptatem architecto repellendus harum sit voluptatum
-                    tempora.</p>
-                </div>
-
-                <div>
+                <div class="employees">
                     <img src="images/bob.jpg" alt="Bob Rite">
-                </div>
 
-                <div>
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Amet, aspernatur ratione sed cum ad officiis sint comque
-                    fugiat similique. Earum laudantium deleniti possimus?
-                    Voluptatem architecto repellendus harum sit voluptatum
-                    tempora.</p>
+                    <div class="employees-text">
+                        <h3>Bob Rite</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                        Amet, aspernatur ratione sed cum ad officiis sint comque
+                        fugiat similique. Earum laudantium deleniti possimus?
+                        Voluptatem architecto repellendus harum sit voluptatum
+                        tempora.</p>
+                    </div>
                 </div>
                 <!--h2, four divs, two divs have images two divs with h3, h4 and paragraph of text-->
 
@@ -238,20 +239,11 @@
             <br>
                     <label for="message">Message</label>
             <br>
-                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <textarea id="message" name="message" rows="8" cols="50"></textarea>
             <br>
-                    <button type="button">Send</button>
+                    <button class="contact-button" type="button">Send</button>
 
                 </form>
-            </div>
-
-            <div class="contact-map">
-                <h2>Location</h2>
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435619.7056164963!2d-77.9961477375!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669578896089!5m2!1sen!2sca"
-                width="600" height="450" style="border:0;" allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="contact-table">
@@ -271,6 +263,15 @@
                         <td>Closed</td>
                     </tr>
                 </table>
+            </div>
+
+            <div class="contact-map">
+                <h2>Location</h2>
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435619.7056164963!2d-77.9961477375!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669578896089!5m2!1sen!2sca"
+                    width="600" height="450" style="border:0;" allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
                 <!--h2, form, google maps embed, table ON A GRID-->
 
