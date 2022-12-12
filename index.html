@@ -24,7 +24,7 @@
         <nav>
 
             <!-- NAVIGATION SECTION -->
-            <div class="container grid-container"> 
+            <div class="container"> 
                 <div class="logo">
                     <img src="images/logo.png" alt="Three Star Media Logo">
                 </div>
@@ -68,22 +68,28 @@
         <!-- ABOUT US SECTION -->
         <section class="section-about">
             <div class="container">
-                <img src="images/about-us.jpg" alt="office recreational space">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Libero unde repellendus exercitationem asperiores ducimus
-                placeat, maxime soluta nesciunt pariatur aliquam consequuntur
-                sequi saepe sint praesentium laboriosam perferendis eius amet
-                ad?</p>
+                <div class="flex-container">
+                    <div class="flex-bit">
+                        <img class="about-image" src="images/about-us.jpg" alt="office recreational space">
+                    </div>
+                        
+                    <div class="flex-bit-text">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Libero unde repellendus exercitationem asperiores ducimus
+                        placeat, maxime soluta nesciunt pariatur aliquam consequuntur
+                        sequi saepe sint praesentium laboriosam perferendis eius amet
+                        ad?</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt
-                reiciendis soluta quo commodi guidem, non perferendis vel sed
-                facilis rerum cum in exercitationem?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt
+                        reiciendis soluta quo commodi guidem, non perferendis vel sed
+                        facilis rerum cum in exercitationem?</p>
                 <!--Image on the left, H2 and couple of paragraphs on the right using FLEXBOX-->
 
+                    </div>
+                </div>
             </div> <!--END container-->
-
         </section> <!--END section-about-->
    
 
@@ -154,7 +160,7 @@
                         </div> <!--GRID TEXT END-->
                     </div> <!-- GRID BIT END-->
 
-                <!--h2 heading, five div's with h3, image, text and button on a grid-->
+                </div> <!-- END Grid container-->
 
             </div> <!--END container-->
 
@@ -181,35 +187,41 @@
         <!-- Can use flexbox or grid-->
         <section class="section-team">
             <div class="container">
-                <h2>Our Team</h2>
-                <div class="employees">
-                    <img src="images/john.jpg" alt="John Doe">
+                <div class="grid-container">
+                    <h2>Our Team</h2>
+                    <div class="grid-row">
+                        <div class="grid-img1">
+                            <img src="images/john.jpg" alt="John Doe">
+                        </div>
 
-                    <div class="employees-text">
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                        Amet, aspernatur ratione sed cum ad officiis sint comque
-                        fugiat similique. Earum laudantium deleniti possimus?
-                        Voluptatem architecto repellendus harum sit voluptatum
-                        tempora.</p> 
+                        <div class="grid-text1">
+                            <h3>John Doe</h3>
+                            <h4>CEO and Co-owner</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Amet, aspernatur ratione sed cum ad officiis sint comque
+                            fugiat similique. Earum laudantium deleniti possimus?
+                            Voluptatem architecto repellendus harum sit voluptatum
+                            tempora.</p> 
+                        </div>
                     </div>
-                </div>
 
-                <div class="employees">
-                    <img src="images/bob.jpg" alt="Bob Rite">
+                    <div class="grid-row">
+                        <div class="grid-img2">
+                            <img src="images/bob.jpg" alt="Bob Rite">
+                        </div>
 
-                    <div class="employees-text">
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                        Amet, aspernatur ratione sed cum ad officiis sint comque
-                        fugiat similique. Earum laudantium deleniti possimus?
-                        Voluptatem architecto repellendus harum sit voluptatum
-                        tempora.</p>
+                        <div class="grid-text2">
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                            Amet, aspernatur ratione sed cum ad officiis sint comque
+                            fugiat similique. Earum laudantium deleniti possimus?
+                            Voluptatem architecto repellendus harum sit voluptatum
+                            tempora.</p>
+                        </div>
                     </div>
+                
                 </div>
-                <!--h2, four divs, two divs have images two divs with h3, h4 and paragraph of text-->
 
             </div> <!--END container-->
 
